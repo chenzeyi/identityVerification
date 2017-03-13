@@ -1,0 +1,35 @@
+#single_form{
+	border: 2px solid #ff0000;
+}
+
+#mainContent{
+	position:absolute;
+	left:22%;
+	border: 2px solid #ff0080;
+}
+
+#single_inputContent{
+	border: 2px solid #004080;
+}
+
+#single_outputContent{
+	border: 2px solid #000000;
+}
+
+.submitArea{
+	position:relative;
+	vertical-align:middle;
+	border: 2px solid #80ff00;
+}
+
+.buttonTab{
+	position:relative;
+	left: 35%;
+}
+
+.inputTab{
+	position:relative;
+	left:30%;
+	border: 2px solid #ff8080;
+}
+

@@ -1,0 +1,121 @@
+#body {
+	background-image: url("../image/login-bakg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	width: 80%;
+	text-align: left;
+	padding: 1px;/*容器内边距*/
+	margin: 1px auto;/*容器外边距*/
+}
+h1 h2 h3 h4 h5 a label{
+	font-family: fantasy;
+}
+hr{
+	height:3em;
+	border:none;
+	border-top:3px groove skyblue;
+	
+}
+
+form {
+  font:100% verdana;
+  min-width: 500px;
+  max-width: 600px;
+  width: 560px;
+}
+
+form fieldset {
+  border-color: #c0c0c0;
+  border-width: 4px;
+  margin: 0;
+}
+
+legend {
+    font-size: 1.3em;
+}
+
+p label { 
+    width: 250px;
+    display: block;
+    float: left;
+    text-align: right;
+    padding: 2px;
+}
+span a{
+	font-size: 3em;
+	text-align: center;
+}
+
+iframe{/*设置iframe填充满div*/
+	width: 100%;
+	height:100%;
+}
+
+header {
+	margin:0em;
+	padding:0em;
+	width: 100%;
+	height:6%;
+	border: 0px solid #408080;
+	text-align:left;
+	background-color: #9c030f;
+}
+
+nav{
+	margin:0em;
+	padding:0em;
+	width: 20%;
+	height:89%;
+	border: 0px solid #ff8040;
+	text-align:left;
+}
+
+#notice{
+	margin:0em;
+	padding:0em;
+	float:right;/*设置div靠右显示*/
+	width: 18%;
+	height:89%;
+	border: 0px solid #ff0080;
+	text-align:left;/*设置文字靠左显示*/
+}
+
+#content{
+	margin:0em;
+	padding:0em;
+	position:relative;
+	float:right;
+	width: 62%;
+	height:89%;
+	border: 0px solid #ff0080;
+	text-align:left;
+}
+
+footer{
+	padding:0em;
+	width: 100%;
+	height:5%;
+	border: 0px solid #ffff00;
+	text-align:center;/*设置文字居中显示*/
+}
+
+
+#global {
+    text-align: left;
+    border: 4px solid #808080;
+    background: #ff0000;
+    width: 560px;
+    padding: 20px;
+    margin: 100px auto;
+}
+
+.button{
+	background-color: #298587;
+	border-color: #174e4f;
+}
+
+#buttons{
+	position: relative;
+	left: 55%;
+}
